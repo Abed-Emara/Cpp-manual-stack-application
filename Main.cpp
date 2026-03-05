@@ -7,8 +7,12 @@ void to_binary(int num);
 
 int main()
 {
-    cout << "12 in binary is "; 
-    to_binary(73);
+    int n;
+    cout << "Enter a num: ";
+    cin>>n;
+    cout<<n<<" => ";
+    to_binary(n);
+    
 }
 
 
@@ -23,3 +27,4 @@ void to_binary(int num) {
         cout << binary.pop();
     }
 }
+
