@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-template <typename T>
+template <class T>
 
 class stack {
 	int capacity;
@@ -75,3 +75,4 @@ public:
 		array_stack = new_arr;
 	}
 };
+
